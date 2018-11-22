@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     @Override
     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
         threshole = progress;
-//        textviewseeknum.setText(progress);
+        textviewseeknum.setText("Sensitive : "+progress);
     }
 
     @Override
